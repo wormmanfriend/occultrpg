@@ -1,0 +1,77 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop" ToolsVersion="15.0">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <FileUpgradeFlags>40</FileUpgradeFlags>
+    <UpgradeBackupLocation>C:\Users\Owner\source\repos\occultrpg\Backup\WPFUI\</UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="divinerpico2.png" />
+    <None Remove="drawing_5.gif" />
+    <None Remove="image\items\calmthoughts.gif" />
+    <None Remove="image\items\glassvial.gif" />
+    <None Remove="image\items\guidingspirit.gif" />
+    <None Remove="image\items\hereticalring.gif" />
+    <None Remove="image\items\mattock.gif" />
+    <None Remove="image\items\ribcage.gif" />
+    <None Remove="image\items\sentimentalclutter.gif" />
+    <None Remove="image\items\shamanclue.gif" />
+    <None Remove="image\items\shamansoccipital.gif" />
+    <None Remove="image\items\tendermemory.gif" />
+    <None Remove="image\items\therianthropics.gif" />
+    <None Remove="image\items\vialofblood.gif" />
+    <None Remove="image\littlefriend.ani" />
+    <None Remove="image\locations\cabin.gif" />
+    <None Remove="image\locations\cave.gif" />
+    <None Remove="image\locations\clearing.gif" />
+    <None Remove="image\locations\divinerpico2.png" />
+    <None Remove="image\locations\nomad.gif" />
+    <None Remove="image\locations\ritualgrounds.gif" />
+    <None Remove="image\locations\shaman1.gif" />
+    <None Remove="image\locations\woods.gif" />
+    <None Remove="image\locations\workshop.gif" />
+    <None Remove="image\monsters\shamanBrain.gif" />
+    <None Remove="image\monsters\shamanDead.gif" />
+    <None Remove="image\monsters\shamanIdle.gif" />
+    <None Remove="image\monsters\shamanIdleHands.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CalcBinding" Version="2.5.2" />
+    <PackageReference Include="PresentationFramework" Version="4.6.0" />
+    <PackageReference Include="XamlAnimatedGif" Version="1.2.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Engine\Engine.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="divinerpico64spot.png" />
+    <Resource Include="drawing_5.gif" />
+    <Resource Include="image\items\calmthoughts.gif" />
+    <Resource Include="image\items\glassvial.gif" />
+    <Resource Include="image\items\guidingspirit.gif" />
+    <Resource Include="image\items\hereticalring.gif" />
+    <Resource Include="image\items\mattock.gif" />
+    <Resource Include="image\items\ribcage.gif" />
+    <Resource Include="image\items\sentimentalclutter.gif" />
+    <Resource Include="image\items\shamanclue.gif" />
+    <Resource Include="image\items\shamansoccipital.gif" />
+    <Resource Include="image\items\tendermemory.gif" />
+    <Resource Include="image\items\therianthropics.gif" />
+    <Resource Include="image\items\vialofblood.gif" />
+    <Resource Include="image\littlefriend.ani" />
+    <Resource Include="image\locations\cabin.gif" />
+    <Resource Include="image\locations\cave.gif" />
+    <Resource Include="image\locations\clearing.gif" />
+    <Resource Include="image\locations\divinerpico2.png" />
+    <Resource Include="image\locations\nomad.gif" />
+    <Resource Include="image\locations\ritualgrounds.gif" />
+    <Resource Include="image\locations\woods.gif" />
+    <Resource Include="image\locations\workshop.gif" />
+    <Resource Include="image\monsters\shamanBrain.gif" />
+    <Resource Include="image\monsters\shamanDead.gif" />
+    <Resource Include="image\monsters\shamanIdle.gif" />
+    <Resource Include="image\monsters\shamanIdleHands.gif" />
+  </ItemGroup>
+</Project>

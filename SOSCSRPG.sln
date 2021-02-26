@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFUI", "WPFUI\WPFUI.csproj", "{6114F26B-7C57-4806-860B-A1B4168BA4E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine", "Engine\Engine.csproj", "{5E033623-0AA0-4525-AB2B-0003F7670B28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6114F26B-7C57-4806-860B-A1B4168BA4E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6114F26B-7C57-4806-860B-A1B4168BA4E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6114F26B-7C57-4806-860B-A1B4168BA4E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6114F26B-7C57-4806-860B-A1B4168BA4E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E033623-0AA0-4525-AB2B-0003F7670B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E033623-0AA0-4525-AB2B-0003F7670B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E033623-0AA0-4525-AB2B-0003F7670B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E033623-0AA0-4525-AB2B-0003F7670B28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {CD331E59-026C-4A46-9439-6D65A5558E96}
+	EndGlobalSection
+EndGlobal
